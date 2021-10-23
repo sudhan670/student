@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class main
+{
+  public static void main(String []args)
+  {
+   Scanner sc=new Scanner(System.in);
+   String name=sc.nextLine();//for insurance
+   String nominee name=sc.nextLine();
+   sc.nextLine();
+   String Relationship=sc.nextLine();
+   sc.nextLine(); 
+   int Nominee_age=sc.nextInt();
+   String nominee occupation=sc.nextLine();
+   sc.nextLine();
+   String nominee email=sc.nextLine();
+   sc.nextLine();
+   int nomineeAdhaarnumber=sc.nextInt();
+   }
+  }
+   
+   
