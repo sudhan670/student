@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class main
+{
+  public static void main(String[]args)
+  {
+   Scanner sc=new Scanner(System.in);
+   String p_name=sc.nextLine();
+   int p_rollno=sc.nextInt(); 
+   String mailid=sc.nextLine();
+   String dayscholar=sc.nextLine();
+   int GPA1=sc.nextInt();
+   int GPA2=sc.nextInt();
+   int GPA3=sc.nextInt();
+   int total=GPA1+GPA2+GPA3;
+   System.out.println(p_name+p_rollno+mailid+dayscholar+mailid+dayscholar+GPA1+GPA2+GPA3+total); 
+   } 
+  }
