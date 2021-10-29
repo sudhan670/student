@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class main
+{
+ public void main(String[]args)
+  {
+   Scanner sc=new Scanner(System.in);
+   System.out.println("--CALCULATOR OPERATIONS--");
+   System.out.println("enter the first number");
+   int f1=sc.nextInt();
+   Sytsem.out.println("enter the second number");
+   int f2=sc.nextInt();
+   System.out.println("enter do the operations");
+   int o=sc.nextcharAt(0);
+  switch(o)
+  {
+   case'+':
+    int add=f1+f2;
+    System.out.println(add);
+    break;
+   case'-':
+     int sub=f1-f2;
+    System.out.println(sub);
+     break;
+  case'*':
+     int multiply=f1*f2;
+     System.out.println(multiply);
+     break;
+  case'/':
+     int divide=f1/f2;
+     System.out.println(divide);
+     break;
+   case'%':
+     System.out.println("nothing to print");
+     break;
+   }
+ } 
+}
